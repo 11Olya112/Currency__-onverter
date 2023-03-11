@@ -1,0 +1,28 @@
+.main {
+  text-align: center;
+  border-bottom: 2px solid black;
+  padding-bottom: 250px;
+
+  &__form {
+    margin: 0 auto;
+    width: 500px;
+    text-align: left;
+  }
+}
+.input,
+select {
+  margin: 10px;
+
+  @media (min-width: 768px) {
+    font-size: 30px;
+  }
+}
+
+.input {
+  width: 100px;
+
+  @media (min-width: 768px) {
+    font-size: 30px;
+    width: 200px;
+  }
+}
