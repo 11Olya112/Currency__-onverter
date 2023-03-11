@@ -98,7 +98,7 @@ export const Main: React.FC = () => {
           <input
             type="number"
             id="final"
-            value={convertedAmount}
+            value={convertedAmount.toFixed(2)}
             readOnly
             className="input"
           />
